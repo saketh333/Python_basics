@@ -15,7 +15,7 @@ if re.search(to_match, "hello"):
 else:
   print("No match")
 
-if re.findAll(to_match, "hello"):
+if re.findall(to_match, "hello"):
   print ("match")
 else:
   print("No match")
